@@ -1,5 +1,6 @@
 FROM jboss/base:latest
-MAINTAINER Marek Goldmann <mgoldman@redhat.com>
+LABEL maintainer.name="Marek Goldmann" \
+      maintainer.email="mgoldman@redhat.com"
 
 # User root user to install software
 USER root
